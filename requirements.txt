@@ -1,52 +1,26 @@
-# Enterprise SQL Server AI Optimizer Suite - Requirements
-# Python 3.13 Compatible Versions
+# Streamlit Cloud SQL Server AI Optimizer - Requirements
+# Optimized for cloud deployment
 
 # Core Framework
 streamlit>=1.28.0
 
-# Data Processing & Analysis - Python 3.13 Compatible
+# Data Processing & Analysis
 pandas>=2.2.0
 numpy>=1.26.0
 
 # Visualization
 plotly>=5.15.0
 
-# AI Integration
+# AI Integration (Optional)
 anthropic>=0.18.0
 
-# Optional Enterprise Extensions (uncomment as needed)
+# SQL Server Database Connectivity
+pymssql>=2.2.8
+sqlalchemy>=2.0.23
 
-# Database Connectivity (if direct DB connections needed)
-# pyodbc>=5.0.1              # SQL Server ODBC driver
-# sqlalchemy>=2.0.23         # Database ORM
-# pymssql>=2.2.8             # Alternative SQL Server driver
-
-# Enhanced Security & Authentication
-# cryptography>=41.0.7       # Encryption utilities
-# pyjwt>=2.8.0               # JWT token handling
-# bcrypt>=4.1.2              # Password hashing
-
-# Monitoring & Logging
-# loguru>=0.7.2              # Enhanced logging
-# prometheus-client>=0.19.0   # Metrics collection
-
-# Excel Export Support
-# openpyxl>=3.1.2            # Excel file generation
-# xlsxwriter>=3.1.9          # Advanced Excel formatting
-
-# Email Notifications
-# smtplib                     # Built-in Python (no install needed)
-# email-validator>=2.1.0     # Email validation
-
-# Cloud Integration
-# boto3>=1.34.0              # AWS SDK (for S3, EC2 integration)
-# azure-storage-blob>=12.19.0 # Azure Blob Storage
+# Optional: Full database support (uncomment if needed)
+pyodbc>=5.0.1
 
 # Development & Testing (for dev environments only)
-# pytest>=7.4.3             # Testing framework
-# black>=23.11.0             # Code formatting
-# flake8>=6.1.0              # Code linting
-
-# Performance Optimization
-# cachetools>=5.3.2          # Caching utilities
-# joblib>=1.3.2              # Parallel processing
+# pytest>=7.4.3
+# black>=23.11.0
